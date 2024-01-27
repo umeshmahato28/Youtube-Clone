@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
@@ -11,7 +13,7 @@ const Sidebar = () => {
   return (
     <div className="w-48 p-5 shadow-md">
       <ul className="">
-        <li> <Link to="/">Home</Link></li>
+        <li> <Link to="/"><i class="faa fa-house"></i>Home</Link></li>
         <li>Shorts</li>
         <li>Live</li>
         
